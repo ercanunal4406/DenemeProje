@@ -28,5 +28,9 @@ internal class Program
     },
     };
 Console.WriteLine("Sınıf Listesi==========");
+foreach (var person in people)
+{
+    Console.WriteLine($"Ad-Soyad: {person.FirstName}{person.LastName}\n-----------------------");
+}
 }
 
